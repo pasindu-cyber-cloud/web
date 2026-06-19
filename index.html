@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nimbus — the all-in-one workspace that helps modern teams plan, track, and ship work faster." />
+  <title>Nimbus — Work flows better together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand" aria-label="Nimbus home">
+        <span class="brand__mark">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+            <path d="M6 15a4 4 0 0 1 .5-7.97A6 6 0 0 1 18 8.5a3.5 3.5 0 0 1-.5 6.97" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        Nimbus
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#" class="btn btn--ghost nav__login">Log in</a>
+        <a href="#pricing" class="btn btn--primary">Get started</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <span class="pill">✨ New — AI task summaries are here</span>
+        <h1>Work flows better <span class="grad">together</span>.</h1>
+        <p class="lead">
+          Nimbus is the all-in-one workspace where teams plan projects, track
+          progress, and ship faster — without drowning in tabs, tools, and
+          endless meetings.
+        </p>
+        <div class="hero__cta">
+          <a href="#pricing" class="btn btn--primary btn--lg">Start free trial</a>
+          <a href="#how" class="btn btn--ghost btn--lg">See how it works</a>
+        </div>
+        <p class="hero__note">No credit card required · Free for 14 days</p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="mock">
+          <div class="mock__bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mock__body">
+            <div class="mock__side">
+              <div class="mock__avatar"></div>
+              <div class="mock__navline"></div>
+              <div class="mock__navline short"></div>
+              <div class="mock__navline"></div>
+              <div class="mock__navline short"></div>
+              <div class="mock__navline"></div>
+            </div>
+            <div class="mock__main">
+              <div class="mock__card">
+                <div class="mock__chip green"></div>
+                <div class="mock__line"></div>
+                <div class="mock__line short"></div>
+              </div>
+              <div class="mock__card">
+                <div class="mock__chip amber"></div>
+                <div class="mock__line"></div>
+                <div class="mock__line short"></div>
+              </div>
+              <div class="mock__card">
+                <div class="mock__chip violet"></div>
+                <div class="mock__line"></div>
+                <div class="mock__line short"></div>
+              </div>
+              <div class="mock__widget"></div>
+            </div>
+          </div>
+        </div>
+        <div class="float float--1">⚡ 2.4k tasks done</div>
+        <div class="float float--2">📈 +38% velocity</div>
+      </div>
+    </div>
+
+    <!-- TRUST BAR -->
+    <div class="container trust">
+      <p class="trust__label">Trusted by fast-moving teams at</p>
+      <div class="trust__logos">
+        <span>NORTHWIND</span>
+        <span>Lumen</span>
+        <span>Boltly</span>
+        <span>QuantaCorp</span>
+        <span>Vela</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Features</span>
+        <h2>Everything your team needs, in one place</h2>
+        <p>Stop switching between five tools. Nimbus brings planning, tracking, and collaboration under one calm, fast interface.</p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M4 7h16M4 12h10M4 17h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Smart task boards</h3>
+          <p>Drag, drop, and prioritize. Visualize your whole workflow with boards that update in real time.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 8v4l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Time & milestones</h3>
+          <p>Track estimates against reality and hit deadlines with automatic milestone reminders.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M16 18a4 4 0 0 0-8 0M12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM4 18a3 3 0 0 1 5-2.2M20 18a3 3 0 0 0-5-2.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Real-time collaboration</h3>
+          <p>Comment, mention, and share files. Everyone stays in sync without another status meeting.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M3 13h4l2 5 4-12 2 7h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Insightful dashboards</h3>
+          <p>See velocity, workload, and progress at a glance with dashboards that actually make sense.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="m13 2-9 11h7l-1 9 9-11h-7l1-9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>AI summaries</h3>
+          <p>Let Nimbus summarize long threads and turn discussions into clear, assignable action items.</p>
+        </article>
+
+        <article class="feature">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Enterprise-grade security</h3>
+          <p>SSO, granular permissions, and encryption at rest keep your team's data safe and sound.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section--alt" id="how">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">How it works</span>
+        <h2>Up and running in three steps</h2>
+        <p>No lengthy onboarding. Most teams send their first task within minutes.</p>
+      </div>
+
+      <div class="grid grid--3 steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3>Create your workspace</h3>
+          <p>Sign up free and invite your team with a single link. No setup fees, no friction.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3>Plan your work</h3>
+          <p>Add projects and tasks, set priorities, and let Nimbus organize everything automatically.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3>Ship with confidence</h3>
+          <p>Track progress in real time and celebrate as work moves from to-do to done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container grid grid--4">
+      <div class="stat"><span class="stat__num">12k+</span><span class="stat__label">Teams onboarded</span></div>
+      <div class="stat"><span class="stat__num">98%</span><span class="stat__label">Customer satisfaction</span></div>
+      <div class="stat"><span class="stat__num">40%</span><span class="stat__label">Faster delivery</span></div>
+      <div class="stat"><span class="stat__num">24/7</span><span class="stat__label">Support coverage</span></div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Pricing</span>
+        <h2>Simple pricing that scales with you</h2>
+        <p>Start free. Upgrade only when your team grows. Cancel anytime.</p>
+      </div>
+
+      <div class="grid grid--3 pricing">
+        <div class="price">
+          <h3 class="price__name">Starter</h3>
+          <div class="price__amt"><span>$0</span>/mo</div>
+          <p class="price__desc">For individuals getting organized.</p>
+          <ul class="price__list">
+            <li>Up to 3 projects</li>
+            <li>Basic task boards</li>
+            <li>2 team members</li>
+            <li>Community support</li>
+          </ul>
+          <a href="#" class="btn btn--ghost btn--block">Get started</a>
+        </div>
+
+        <div class="price price--featured">
+          <span class="price__badge">Most popular</span>
+          <h3 class="price__name">Team</h3>
+          <div class="price__amt"><span>$12</span>/user/mo</div>
+          <p class="price__desc">For growing teams that ship often.</p>
+          <ul class="price__list">
+            <li>Unlimited projects</li>
+            <li>Dashboards & reports</li>
+            <li>AI task summaries</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#" class="btn btn--primary btn--block">Start free trial</a>
+        </div>
+
+        <div class="price">
+          <h3 class="price__name">Enterprise</h3>
+          <div class="price__amt"><span>Custom</span></div>
+          <p class="price__desc">For organizations with advanced needs.</p>
+          <ul class="price__list">
+            <li>SSO & SAML</li>
+            <li>Advanced permissions</li>
+            <li>Dedicated manager</li>
+            <li>99.9% uptime SLA</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost btn--block">Contact sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Loved by teams</span>
+        <h2>Don't just take our word for it</h2>
+      </div>
+      <div class="grid grid--3">
+        <figure class="quote">
+          <p>"Nimbus replaced three tools for us. Our team finally has one source of truth and meetings dropped by half."</p>
+          <figcaption><span class="quote__avatar">A</span><span><strong>Amara N.</strong><br/>Head of Product, Lumen</span></figcaption>
+        </figure>
+        <figure class="quote">
+          <p>"The AI summaries alone save me an hour a day. It's the cleanest project tool I've ever used."</p>
+          <figcaption><span class="quote__avatar">J</span><span><strong>Jonas R.</strong><br/>Engineering Lead, Boltly</span></figcaption>
+        </figure>
+        <figure class="quote">
+          <p>"We onboarded the whole company in an afternoon. Adoption was instant — it just makes sense."</p>
+          <figcaption><span class="quote__avatar">M</span><span><strong>Mei L.</strong><br/>COO, QuantaCorp</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <div class="section__head">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions, answered</h2>
+      </div>
+
+      <div class="faq">
+        <details class="faq__item">
+          <summary>Is there really a free plan?</summary>
+          <p>Yes. The Starter plan is free forever for up to 2 team members and 3 projects — no credit card needed.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Can I change plans later?</summary>
+          <p>Absolutely. You can upgrade, downgrade, or cancel at any time from your billing settings.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Is my data secure?</summary>
+          <p>We use encryption at rest and in transit, support SSO, and offer granular role-based permissions on paid plans.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Do you offer support?</summary>
+          <p>All plans include support. Team and Enterprise plans get priority response times and a dedicated contact.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="container cta__inner">
+      <h2>Ready to make work flow?</h2>
+      <p>Join thousands of teams shipping faster with Nimbus. Start your free trial today.</p>
+      <form class="cta__form" onsubmit="return false;">
+        <input type="email" placeholder="Enter your work email" aria-label="Email" required />
+        <button class="btn btn--primary btn--lg" type="submit">Start free trial</button>
+      </form>
+      <p class="cta__note">14-day free trial · No credit card required</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="brand brand--light">
+          <span class="brand__mark">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none"><path d="M6 15a4 4 0 0 1 .5-7.97A6 6 0 0 1 18 8.5a3.5 3.5 0 0 1-.5 6.97" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Nimbus
+        </a>
+        <p>The all-in-one workspace for modern teams.</p>
+      </div>
+      <div class="footer__cols">
+        <div><h4>Product</h4><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#">Changelog</a></div>
+        <div><h4>Company</h4><a href="#">About</a><a href="#">Careers</a><a href="#">Blog</a></div>
+        <div><h4>Support</h4><a href="#faq">Help center</a><a href="#contact">Contact</a><a href="#">Status</a></div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© 2026 Nimbus Inc. All rights reserved.</span>
+      <span class="footer__social">
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="GitHub">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
